@@ -1,0 +1,66 @@
+* {
+    box-sizing:border-box;  
+}
+body{
+    margin:16px;
+}
+.nav-bar > ul {
+    padding:0;
+    list-style-type: none;
+    display:flex;
+    gap:16px;
+    justify-content:space-evenly;
+}
+.nav-bar a {
+    text-decoration:none;   
+}
+
+.profile-pic{
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    margin:20px 0px 20px 0px;
+}
+.profile-pic > img, .profile-pic > svg{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.education-table {
+    border:1px silver solid;
+    width:100%;
+    border-collapse: collapse;
+}
+.education-table th {
+    background-color: white;
+}
+
+.education-table td ,.education-table th {
+    border:1px silver solid;
+    padding:8px;
+}
+.work-table {
+    border:1px silver solid;
+    width:100%;
+    border-collapse: collapse;
+}
+.work-table th {
+    background-color: lightskyblue;
+}
+.work-table td ,.work-table th {
+    border:1px silver solid;
+    padding:8px;
+}
+
+form {
+    width:70%;
+    border: 1px black solid;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+[type="text"], textarea, select {
+    width:100%;
+}
